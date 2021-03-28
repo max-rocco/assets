@@ -24,7 +24,7 @@ body {
   color: #f56843;
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
   .nf-illustration {
     object-fit: cover;
     height: auto;
