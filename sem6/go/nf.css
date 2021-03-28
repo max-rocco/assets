@@ -21,4 +21,13 @@ body {
 
 .nf-message {
   font-size: 2rem;
+  color: #f56843;
+}
+
+@media (max-width: 720px) {
+  .nf-illustration {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+  }
 }
