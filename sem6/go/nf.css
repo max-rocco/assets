@@ -1,7 +1,7 @@
 /* Max Rocco (c) 2021 */
 
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -17,15 +17,17 @@ body {
 
 .nf-illustration {
   height: 60vh;
+  width: auto;
 }
 
 .nf-message {
-  font-size: 2rem;
+  font-size: clamp(1.66rem, -0.875rem + 8.333vw, 2.66rem);
   color: #f56843;
 }
 
 @media screen and (max-width: 720px) {
   .nf-illustration {
+    height: 50vh;
     object-fit: cover;
   }
 }
